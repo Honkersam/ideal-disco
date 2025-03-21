@@ -456,6 +456,13 @@ for x in ["The", "rain", "in", "spain"]:
     print(x)
 print("Done")
 
+# We can adjust the step size:
+for i in range(8, 47, 5):
+    print(i)
+
+# We can also count backwards:
+for i in range(10, 4 - 1, -1):
+    print(i)
 # Breaking
 answers = ["A", "B", "C", "D"]
 for answer in answers:
