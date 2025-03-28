@@ -209,6 +209,14 @@ print(s.count("a"))
 # Print the ASCII character 127 (⌂ (alt + 127))
 print(chr(127))
 
+"""String nice-to-knows"""
+string = "Hello World"
+# The brackets allow us to do the list thing on a string
+print(string[0])
+print(string[4])
+# Know this for everything, i : i is a range
+print(string[2 : 7])
+
 """Manipulating Strings With Methods"""
 s1 = "There is no such word as schmeedledorp"
 s2 = "   a b c    "
