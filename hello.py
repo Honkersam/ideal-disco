@@ -216,6 +216,18 @@ print(string[0])
 print(string[4])
 # Know this for everything, i : i is a range
 print(string[2 : 7])
+# .replace(string, string)
+print(string.replace(s[0], ")
+# KNOW THIS THOUROUGLY
+# [:]
+# [1:] returns the rest of the string, starting at that index
+print(string[1:])
+# [-1:] returns the rest of the string, starting from the end minus that number
+print(string[-1:])
+# [:-1] returns the string, up until that number before the end
+print(string[:-1])
+# [:1] only returns the first n letters of the string
+print(string[:1])
 
 """Manipulating Strings With Methods"""
 s1 = "There is no such word as schmeedledorp"
