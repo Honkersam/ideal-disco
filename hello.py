@@ -219,7 +219,10 @@ print(string[2 : 7])
 # .replace(string, string)
 print(string.replace(s[0], ")
 # KNOW THIS THOUROUGLY
-# [:]
+# [n:r] returns the string starting at 0 + n, until 0 + r
+# [-n:-r] returns the string starting at end - n, until end -r
+# [x:] x is what to not include before x starting at 0, -x is starting from the end
+# [:y] y is what to not include after y starting from 0, -y is starting from end
 # [1:] returns the rest of the string, starting at that index
 print(string[1:])
 # [-1:] returns the rest of the string, starting from the end minus that number
