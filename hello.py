@@ -217,7 +217,7 @@ print(string[4])
 # Know this for everything, i : i is a range
 print(string[2 : 7])
 # .replace(string, string)
-print(string.replace(s[0], ")
+print(string.replace(string[0], ""))
 # KNOW THIS THOUROUGLY
 # [n:r] returns the string starting at 0 + n, until 0 + r
 # [-n:-r] returns the string starting at end - n, until end -r
